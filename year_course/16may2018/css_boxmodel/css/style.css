@@ -12,7 +12,7 @@ h1 {
 html {
     height: 100%;
     width: 100%;
-    background: linear-gradient(to bottom right, rgb(0, 208, 255), rgb(0, 252, 29));
+    background: linear-gradient(-45deg, rgb(0, 208, 255), rgb(0, 252, 29));
 }
 
 main article:nth-child(1) {
@@ -27,10 +27,10 @@ main article:nth-child(3) {
 
 article {
     background-color: white;
-    height: 100px;
-    width: 600px;
-    padding: 10px;
-    margin: 0 50px 15px 50px;
+    width: 40em;
+    max-width: 100%;
+    padding: 3em;
+    margin: 0 5em 1em 5em;
     margin-left: auto;
     margin-right: auto;
     border: 1px solid;
