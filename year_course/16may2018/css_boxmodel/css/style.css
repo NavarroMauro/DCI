@@ -9,30 +9,27 @@ h1 {
     margin: 50px 0 80px 0;
 }
 
-html {
-    height: 100%;
-    width: 100%;
+body {
+    background: #464d6d;
     background: linear-gradient(-45deg, rgb(0, 208, 255), rgb(0, 252, 29));
 }
 
-main article:nth-child(1) {
-    border-left: solid 5px red;
+
+
+article {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 40em;
+    max-width: 100%;
+    padding: 3em;
+    margin: 1em auto;
+    border-left: 5px solid red;
+    box-shadow: 2px -5px 25px #000000a4;
 }
+
+
 main article:nth-child(2) {
     border-left: solid 5px green;
 }
 main article:nth-child(3) {
     border-left: solid 5px yellow;
-}
-
-article {
-    background-color: white;
-    width: 40em;
-    max-width: 100%;
-    padding: 3em;
-    margin: 0 5em 1em 5em;
-    margin-left: auto;
-    margin-right: auto;
-    border: 1px solid;
-    box-shadow: 5px 10px 8px #000000a4;
 }
