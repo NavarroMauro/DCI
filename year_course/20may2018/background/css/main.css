@@ -1,0 +1,21 @@
+body {
+    min-width: 100%;
+    min-height: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    background-image: url(../img/2017-08-30-07-11-26-1000x667.jpg)
+}
+
+div {
+    width: 400px;
+    height: 200px;
+    padding: 3em;
+    margin: 10em;
+    background-color: rgba(179, 191, 206, 0.5);
+    text-align: center;
+    position: absolute;
+    top: 5%;
+    left: 52%;
+}

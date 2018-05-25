@@ -1,0 +1,90 @@
+/* ====================================
+   Genreal Styles
+   ==================================== */
+
+* {
+  /* apply width and height to boxes
+     including padding and border
+     (changes how dimensions are calculated) */
+  box-sizing: border-box;
+}
+
+body {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/##9ca6d1+0,61c419+50,b4e391+100 */
+  background: #9ca6d1; /* Old browsers */
+  background: linear-gradient(135deg, #9ca6d1 0%,#9bd670 50%,#b4e391 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+}
+
+/* ====================================
+   main navigation
+   ==================================== */
+
+nav {
+  position: sticky;
+  top: 0;
+  left: 0;
+  background: black;
+}
+nav ul {
+  margin: 2em;
+  list-style: none;
+  padding-left: 0;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+  width: 8em;
+  text-align: center;
+}
+nav ul li a {
+  display: block;
+  background: white;
+  padding: 10px;
+}
+
+/* ====================================
+   main content
+   ==================================== */
+
+main {
+  margin: 1em;
+  border-style:double;
+  border-width: 15px;
+  border-color: white;
+  border-top-left-radius: 100px 40px;
+  border-top-right-radius: 100px 40px;
+  border-bottom-left-radius: 40px;
+  border-bottom-right-radius: 40px;
+  box-shadow: 4px 4px 20px 20px rgba(0,0,0, .5);
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1em;
+}
+
+h1 {
+  grid-column: 1 / -1;
+  background: white;
+  text-align: center;
+}
+
+article {
+  max-width: 100%;
+  margin: 1em auto;
+  border-left-width: 5px;
+  border-left-style: solid;
+  border-left-color: lime;
+  padding: 1em;
+  background: white;
+}
+
+article:nth-of-type(2) {
+  border-left-color: blue;
+}
+
+article:nth-of-type(3) {
+  border-left-color: red;
+}
+
+article h2 {
+  margin-top: 0;
+}
